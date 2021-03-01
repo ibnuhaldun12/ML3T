@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -20,18 +19,18 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="331dp"
                 android:layout_height="wrap_content"
                 android:text="Media Pembelajaran"
                 android:textColor="#FF03DAC5"
-                android:textSize="24dp"/>
+                android:textSize="24dp" />
 
             <View
-                android:layout_gravity="center"
                 android:layout_width="40dp"
                 android:layout_height="32dp"
+                android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
-                android:src="@drawable/logosmk1unaaha"/>
+                android:src="@drawable/logosmk1unaaha" />
 
 
         </LinearLayout>
@@ -39,7 +38,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pelajaran Teknik Jaringan Berbasis Luas"/>
+            android:text="Pelajaran Teknik Jaringan Berbasis Luas" />
 
     </LinearLayout>
 
@@ -48,18 +47,18 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:clickable="true"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="30dp"
         android:focusable="true"
-        app:cardBackgroundColor="@color/colorPrimary">
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="3dp">
 
 
         <LinearLayout
-            android:padding="10dp"
-            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:orientation="horizontal">
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
 
             <LinearLayout
                 android:layout_width="297dp"
@@ -82,24 +81,23 @@
 
 
             </LinearLayout>
-            
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/logosmk1unaaha"
+                    android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
-                    android:layout_alignParentRight="true"/>
+                    android:src="@drawable/logosmk1unaaha" />
 
             </RelativeLayout>
 
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
-
-
 
 
 </LinearLayout>
