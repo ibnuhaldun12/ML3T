@@ -104,7 +104,7 @@
         android:id="@+id/button3"
         android:layout_width="140dp"
         android:layout_height="140dp"
-
+        android:layout_margin="10dp"
 
         android:onClick="pindah"
         android:text="Materi" />
