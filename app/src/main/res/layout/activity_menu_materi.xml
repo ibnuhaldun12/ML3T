@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menu_materi"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:background="#39DCF1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        >
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@color/white"
+            tools:text="BAB I"></Button>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:text="BAB III"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

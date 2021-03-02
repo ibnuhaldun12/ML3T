@@ -99,5 +99,16 @@
 
     </androidx.cardview.widget.CardView>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+
+        android:onClick="pindah"
+        android:text="menu selanjutnya" />
+
+
 
 </LinearLayout>
