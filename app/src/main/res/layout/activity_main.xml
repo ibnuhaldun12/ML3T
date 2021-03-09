@@ -101,19 +101,22 @@
 
     <Button
 
-        android:id="@+id/button3"
+        android:id="@+id/KI"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_margin="10dp"
-
-        android:onClick="pindah"
-        android:text="Materi" />
+        android:onClick="kompetensidasar"
+        android:text="KI / KD"/>
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_margin="10dp"
+        android:onClick="materi"
+        android:text="Materi"/>
+
+
+
 
 
 </LinearLayout>

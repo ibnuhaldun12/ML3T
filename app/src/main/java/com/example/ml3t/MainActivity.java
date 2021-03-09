@@ -14,8 +14,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void pindah(View view) {
-        Intent intent = new Intent (MainActivity.this, menu_materi.class );
+    public void kompetensidasar(View view) {
+        Intent intent = new Intent (MainActivity.this, kompetensi.class );
         startActivity(intent);
+    }
+
+    public void materi(View view) {
     }
 }

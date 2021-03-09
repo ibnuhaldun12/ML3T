@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".menu_materi"
+    tools:context=".kompetensi"
     tools:ignore="ExtraText">
 
     <ImageView
-        android:background="#39DCF1"
-        android:layout_width="match_parent"
+        android:background="@drawable/kompetensi"
+        android:layout_width="wrap_content"
         android:layout_height="200dp"
-
+        android:layout_margin="10dp"
         >
 
     </ImageView>
@@ -29,24 +29,12 @@
             android:background="@color/white"
             tools:text="BAB I"></Button>
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="140dp"
-            android:layout_height="140dp"
-            android:text="BAB III"/>
 
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="140dp"
-            android:layout_height="140dp"
-            android:text="BAB V" />
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+
+
+
 
 
     </LinearLayout>
