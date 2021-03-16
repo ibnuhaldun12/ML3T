@@ -12,28 +12,39 @@
         android:background="@drawable/kompetensi"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:layout_margin="10dp"
-        >
-
+        android:layout_margin="15dp"
+        android:contentDescription="TODO">
     </ImageView>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_margin="3dp"
+            app:cardElevation="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00FFFF">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Kompetensi Dasar :"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="20dp"/>
+            </LinearLayout>
 
 
-        <Button
-            android:layout_width="140dp"
-            android:layout_height="140dp"
-            android:background="@color/white"
-            tools:text="BAB I"></Button>
 
 
-
-
-
-
+        </com.google.android.material.card.MaterialCardView>
 
 
 

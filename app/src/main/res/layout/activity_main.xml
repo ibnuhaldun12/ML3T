@@ -1,46 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    
+
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
+
+
+
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:orientation="vertical">
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:focusable="true"
+
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="2dp">
+
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
 
-            <TextView
-                android:layout_width="331dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Media Pembelajaran"
-                android:textColor="#FF03DAC5"
-                android:textSize="24dp" />
+                android:orientation="vertical">
 
-            <View
-                android:layout_width="40dp"
-                android:layout_height="32dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="5dp"
-                android:src="@drawable/logosmk1unaaha" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Media Pembelajaran"
+                    android:textColor="#FF3700B3"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Teknik Komputer Dan Jaringan"
+                    android:textColor="#FF3700B3"
+                    android:textSize="15dp"
+                    />
+
+
+            </LinearLayout>
+
 
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Pelajaran Teknik Jaringan Berbasis Luas" />
-
-    </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -49,8 +69,8 @@
         android:clickable="true"
         android:focusable="true"
         app:cardBackgroundColor="@color/colorPrimary"
-        app:cardCornerRadius="30dp"
-        app:cardElevation="3dp">
+        app:cardCornerRadius="20dp"
+        app:cardElevation="2dp">
 
 
         <LinearLayout
@@ -66,18 +86,20 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="352dp"
+                    android:layout_height="match_parent"
                     android:text="Teknik Komputer dan Jaringan"
-                    android:textColor="#FF3700B3"
-                    android:textSize="20dp" />
+                    android:textColor="#FBE9E7"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="SMK N 1 Unaaha"
-                    android:textColor="#FF3700B3"
-                    android:textSize="15dp" />
+                    android:textColor="#FBE9E7"
+                    android:textSize="15dp"
+                    />
 
 
             </LinearLayout>
@@ -99,21 +121,194 @@
 
     </androidx.cardview.widget.CardView>
 
-    <Button
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="3dp"
+            >
 
-        android:id="@+id/KI"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:layout_margin="10dp"
-        android:onClick="kompetensidasar"
-        android:text="KI / KD"/>
 
-    <Button
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:layout_margin="10dp"
-        android:onClick="materi"
-        android:text="Materi"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:onClick="kompetensidasar">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kompetensi Dasar"
+                    android:textSize="18dp"
+                    android:textColor="#5e5e5e"
+                    android:textStyle="bold"/>
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/kompetensidasar"
+
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"/>
+
+
+
+
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="3dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Materi"
+                    android:textSize="18dp"
+                    android:textColor="#5e5e5e"
+                    android:textStyle="bold"/>
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/materi1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"/>
+
+
+
+
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="3dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quiz"
+                    android:textSize="18dp"
+                    android:textColor="#5e5e5e"
+                    android:textStyle="bold"/>
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/quiz1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"/>
+
+
+
+
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="3dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:textSize="18dp"
+                    android:textColor="#5e5e5e"
+                    android:textStyle="bold"/>
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/tentang1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"/>
+
+
+
+
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="15dp"
+            android:layout_marginTop="1dp"
+
+            android:background="@drawable/bg_gradient"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            >
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
 
 
 

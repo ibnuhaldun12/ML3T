@@ -14,11 +14,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+
     public void kompetensidasar(View view) {
-        Intent intent = new Intent (MainActivity.this, kompetensi.class );
+        Intent intent =new Intent(MainActivity.this, kompetensi.class );
         startActivity(intent);
     }
 
-    public void materi(View view) {
-    }
+
 }

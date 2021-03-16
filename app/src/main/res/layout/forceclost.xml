@@ -5,8 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
     android:orientation="vertical"
-    tools:context=".menubab">
+    tools:context=".forceclost">
     <LinearLayout
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
@@ -18,7 +19,7 @@
             android:layout_height="150dp"
             android:layout_margin="10dp"
             app:cardElevation="5dp"
-            android:id="@+id/addnotice">
+            android:id="@+id/bab1">
            <LinearLayout
                android:layout_width="match_parent"
                android:layout_height="match_parent"
@@ -51,7 +52,7 @@
              android:layout_height="150dp"
              android:layout_margin="10dp"
              app:cardElevation="5dp"
-             android:id="@+id/galleryimage">
+             android:id="@+id/bab2">
              <LinearLayout
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
@@ -80,4 +81,78 @@
          </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp"
+            android:id="@+id/addnotice">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/logosmk1unaaha"
+                    android:padding="15dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#40C4D5"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/bab3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BAB III"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp"
+            android:id="@+id/bab4">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/bab2"
+                    android:padding="15dp"/>
+                <view
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/purple_200"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BAB IV"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
 </LinearLayout>
