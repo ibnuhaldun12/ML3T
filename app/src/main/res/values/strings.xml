@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ML 3T</string>
+    <string name="todo">TODO</string>
+    <string name="bab_iii">BAB III</string>
 </resources>

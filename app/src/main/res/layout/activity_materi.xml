@@ -5,121 +5,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    
-
     android:orientation="vertical"
-    tools:context=".MainActivity">
 
+    tools:context=".materi">
 
-
-
-    <androidx.cardview.widget.CardView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:clickable="true"
-        android:focusable="true"
-
-        app:cardBackgroundColor="@color/colorPrimary"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="2dp">
+        android:layout_height="180dp"
+        android:background="@drawable/jaringan">
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Media Pembelajaran"
-                    android:textColor="#FF3700B3"
-                    android:textSize="30dp"
-                    android:textStyle="bold"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Teknik Komputer Dan Jaringan"
-                    android:textColor="#FF3700B3"
-                    android:textSize="15dp"
-                    />
-
-
-            </LinearLayout>
-
-
-
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:clickable="true"
-        android:focusable="true"
-        app:cardBackgroundColor="@color/colorPrimary"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="2dp">
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <LinearLayout
-                android:layout_width="297dp"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="352dp"
-                    android:layout_height="match_parent"
-                    android:text="Teknik Komputer dan Jaringan"
-                    android:textColor="#FBE9E7"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="SMK N 1 Unaaha"
-                    android:textColor="#FBE9E7"
-                    android:textSize="15dp"
-                    />
-
-
-            </LinearLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:src="@drawable/logosmk1unaaha" />
-
-            </RelativeLayout>
-
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -145,11 +41,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="3dp"
-                android:onClick="kompetensidasar">
+                >
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Kompetensi Dasar"
+                    android:text="BAB I"
                     android:textSize="18dp"
                     android:textColor="#5e5e5e"
                     android:textStyle="bold"/>
@@ -184,12 +80,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="3dp"
-                android:onClick="materi"
+
                 >
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Materi"
+                    android:text="BAB II"
                     android:textSize="18dp"
                     android:textColor="#5e5e5e"
                     android:textStyle="bold"/>
@@ -209,11 +105,10 @@
         </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:weightSum="2"
@@ -226,7 +121,10 @@
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="3dp"
-            app:cardElevation="3dp">
+            app:cardElevation="3dp"
+            >
+
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -235,14 +133,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Quiz"
+                    android:text="BAB III"
                     android:textSize="18dp"
                     android:textColor="#5e5e5e"
                     android:textStyle="bold"/>
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="90dp"
-                    android:src="@drawable/quiz1"
+                    android:src="@drawable/kompetensidasar"
+
                     android:layout_alignParentRight="true"
                     android:layout_alignParentBottom="true"/>
 
@@ -262,23 +161,26 @@
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="3dp"
-            app:cardElevation="3dp">
+            app:cardElevation="3dp"
+            >
             <RelativeLayout
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="3dp">
+                android:padding="3dp"
+
+                >
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="About Us"
+                    android:text="BAB IV"
                     android:textSize="18dp"
                     android:textColor="#5e5e5e"
                     android:textStyle="bold"/>
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="90dp"
-                    android:src="@drawable/tentang1"
+                    android:src="@drawable/materi1"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentBottom="true"/>
 
@@ -291,27 +193,6 @@
         </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
-
-
-
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_margin="15dp"
-            android:layout_marginTop="1dp"
-
-            android:background="@drawable/bg_gradient"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            >
-
-        </com.google.android.material.bottomnavigation.BottomNavigationView>
-
-
-
-
-
 
 
 
