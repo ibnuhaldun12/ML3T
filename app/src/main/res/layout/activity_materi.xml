@@ -6,16 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/deep_sky_blue"
 
     tools:context=".materi">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:background="@drawable/jaringan">
 
-
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,7 +19,8 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:weightSum="2"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@drawable/bg_gradient">
         <com.google.android.material.card.MaterialCardView
             android:layout_weight="1"
             android:layout_width="match_parent"
@@ -41,18 +37,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="3dp"
+
                 >
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="BAB I"
+                    android:text="PERTEMUAN I"
                     android:textSize="18dp"
                     android:textColor="#5e5e5e"
                     android:textStyle="bold"/>
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="90dp"
-                    android:src="@drawable/kompetensidasar"
+                    android:src="@drawable/pertemuan1"
 
                     android:layout_alignParentRight="true"
                     android:layout_alignParentBottom="true"/>
@@ -85,14 +82,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="BAB II"
+                    android:text="PERTEMUAN II"
                     android:textSize="18dp"
                     android:textColor="#5e5e5e"
                     android:textStyle="bold"/>
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="90dp"
-                    android:src="@drawable/materi1"
+                    android:src="@drawable/pertemuan2"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentBottom="true"/>
 
@@ -112,7 +109,8 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:weightSum="2"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@drawable/bg_gradient">
         <com.google.android.material.card.MaterialCardView
             android:layout_weight="1"
             android:layout_width="match_parent"
@@ -121,8 +119,7 @@
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="3dp"
-            app:cardElevation="3dp"
-            >
+            app:cardElevation="3dp">
 
 
             <RelativeLayout
@@ -133,14 +130,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="BAB III"
+                    android:text="PERTEMUAN III"
                     android:textSize="18dp"
                     android:textColor="#5e5e5e"
                     android:textStyle="bold"/>
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="90dp"
-                    android:src="@drawable/kompetensidasar"
+                    android:src="@drawable/pertemuan3"
 
                     android:layout_alignParentRight="true"
                     android:layout_alignParentBottom="true"/>
@@ -173,7 +170,183 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="BAB IV"
+                    android:text="PERTEMUAN IV"
+                    android:textSize="18dp"
+                    android:textColor="#5e5e5e"
+                    android:textStyle="bold"/>
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/pertemuan4"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"/>
+
+
+
+
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_gradient">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="3dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PERTEMUAN V"
+                    android:textSize="18dp"
+                    android:textColor="#5e5e5e"
+                    android:textStyle="bold"/>
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/pertemuan5"
+
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"/>
+
+
+
+
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="3dp"
+            >
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PERTEMUAN VI"
+                    android:textSize="18dp"
+                    android:textColor="#5e5e5e"
+                    android:textStyle="bold"/>
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/pertemuan6"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"/>
+
+
+
+
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_gradient">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="3dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PERTEMUAN VII"
+                    android:textSize="18dp"
+                    android:textColor="#5e5e5e"
+                    android:textStyle="bold"/>
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/pertemuan7"
+
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"/>
+
+
+
+
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="3dp"
+            >
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PERTEMUAN VIII"
                     android:textSize="18dp"
                     android:textColor="#5e5e5e"
                     android:textStyle="bold"/>

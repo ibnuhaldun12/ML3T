@@ -89,7 +89,7 @@
                     android:layout_width="352dp"
                     android:layout_height="match_parent"
                     android:text="Teknik Komputer dan Jaringan"
-                    android:textColor="#FBE9E7"
+                    android:textColor="#FF3700B3"
                     android:textSize="20dp"
                     android:textStyle="bold" />
 
@@ -97,9 +97,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="SMK N 1 Unaaha"
-                    android:textColor="#FBE9E7"
-                    android:textSize="15dp"
-                    />
+                    android:textColor="#FF3700B3"
+                    android:textSize="15dp" />
 
 
             </LinearLayout>
