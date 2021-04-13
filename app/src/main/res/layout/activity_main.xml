@@ -8,7 +8,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
 
 
@@ -18,12 +26,9 @@
         android:layout_margin="10dp"
         android:clickable="true"
         android:focusable="true"
-
         app:cardBackgroundColor="@color/colorPrimary"
         app:cardCornerRadius="20dp"
         app:cardElevation="2dp">
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -51,11 +56,7 @@
                     android:textColor="#FF3700B3"
                     android:textSize="15dp"
                     />
-
-
             </LinearLayout>
-
-
 
         </LinearLayout>
 
@@ -71,19 +72,16 @@
         app:cardCornerRadius="20dp"
         app:cardElevation="2dp">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:gravity="center"
             android:orientation="horizontal"
             android:padding="10dp">
-
             <LinearLayout
                 android:layout_width="297dp"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
                 <TextView
                     android:layout_width="352dp"
                     android:layout_height="match_parent"
@@ -99,9 +97,7 @@
                     android:textColor="#FF3700B3"
                     android:textSize="15dp" />
 
-
             </LinearLayout>
-
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -135,9 +131,7 @@
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="3dp"
-            app:cardElevation="3dp"
-            >
-
+            app:cardElevation="3dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -155,14 +149,8 @@
                     android:layout_width="120dp"
                     android:layout_height="90dp"
                     android:src="@drawable/kompetensidasar"
-
                     android:layout_alignParentRight="true"
                     android:layout_alignParentBottom="true"/>
-
-
-
-
-
 
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -178,7 +166,6 @@
             app:cardElevation="3dp"
             >
             <RelativeLayout
-
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="3dp"
@@ -197,11 +184,6 @@
                     android:src="@drawable/materi1"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentBottom="true"/>
-
-
-
-
-
 
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -244,11 +226,6 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentBottom="true"/>
 
-
-
-
-
-
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -281,16 +258,10 @@
                     android:layout_alignParentBottom="true"/>
 
 
-
-
-
-
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
-
-
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
@@ -303,15 +274,9 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             >
-
         </com.google.android.material.bottomnavigation.BottomNavigationView>
 
-
-
-
-
-
-
-
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
