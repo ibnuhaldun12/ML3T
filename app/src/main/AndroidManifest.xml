@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ML3T">
-        <activity android:name=".materi"></activity>
+        <activity android:name=".isipertemuan1"></activity>
+        <activity android:name=".materi" />
         <activity android:name=".forceclost" />
         <activity android:name=".kompetensi" />
         <activity android:name=".MainActivity">
