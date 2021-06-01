@@ -25,4 +25,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent= new Intent(MainActivity.this, materi.class);
         startActivity(intent);
     }
+
+    public void videotutorial(View view) {
+        Intent intent = new Intent(MainActivity.this, isivideotutorial.class);
+        startActivity(intent);
+    }
 }
