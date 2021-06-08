@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "842931471005",
+    "project_id": "media-pembelajaran-ea616",
+    "storage_bucket": "media-pembelajaran-ea616.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842931471005:android:3b0e3823cbfbafd0cc8a74",
+        "android_client_info": {
+          "package_name": "com.smkn1unaaha.mediapembelajaran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842931471005-sdnvcs31sufeuuekg60he33h43ta74vj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS9mXu4_AMgyQOmhRKE2LTmSJfM9Rz9jM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842931471005-sdnvcs31sufeuuekg60he33h43ta74vj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

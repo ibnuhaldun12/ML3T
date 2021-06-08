@@ -244,11 +244,12 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="3dp">
+                android:padding="3dp"
+                android:onClick="aboutusmaker">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="About Us"
+                    android:text="About Us Maker"
                     android:textSize="18dp"
                     android:textColor="#5e5e5e"
                     android:textStyle="bold"/>

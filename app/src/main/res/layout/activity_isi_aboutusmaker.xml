@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".isi_aboutusmaker">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ibnu_haldun" />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="NIM          : 17520249003"
+        android:textSize="20dp"
+        android:textStyle="bold"    />
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAMA      : IBNU HALDUN"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRODI   : Pendidikan Teknik Informatika "
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALAMAT : Kel. Palarahi"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Kontak "
+        android:onClick="cellphone"/>
+         <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Email"
+        android:onClick="email"/>
+
+        </LinearLayout>
+
+</LinearLayout>
